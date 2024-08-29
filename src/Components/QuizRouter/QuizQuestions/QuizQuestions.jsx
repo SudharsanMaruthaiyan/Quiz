@@ -13,7 +13,7 @@ const QuizQuestions = () => {
                 <h1 className=" font-bold font-[poppins] border-b-2 p-5 pl-8">Quiz</h1>
                 <div>
                     <div className=" p-8 shadow-2xl rounded-t-xl">
-                        <div>
+                        <div id="1">
                             <div className=" bg-[#282664] p-5 text-white rounded-t-lg ">
                                 <p className=" text-lg font-[poppins]">Question 1</p>
                                 <p className=" text-xl font-[poppins] pt-5">You are watching the TV news and see this appear on the screen:</p>
@@ -44,7 +44,7 @@ const QuizQuestions = () => {
                             </div>
                         </div>
                         {/* 2 */}
-                        <div className=" pt-10" id="ss">
+                        <div className=" pt-10" id="2">
                             <div className=" bg-[#282664] p-5 text-white rounded-t-lg ">
                                 <p className=" text-lg font-[poppins]">Question 2</p>
                                 <p className=" text-xl font-[poppins] pt-5">Complete the sentences:</p>
@@ -74,7 +74,7 @@ const QuizQuestions = () => {
                             </div>
                         </div>
                         {/* 3 */}
-                        <div className=" pt-10" id="ss">
+                        <div className=" pt-10" id="3">
                             <div className=" bg-[#282664] p-5 text-white rounded-t-lg ">
                                 <p className=" text-lg font-[poppins]">Question 3</p>
                                 <p className=" text-xl font-[poppins] pt-5">A short message on Twitter is called a ?????</p>
@@ -96,7 +96,7 @@ const QuizQuestions = () => {
                             </div>
                         </div>
                         {/* 4 */}
-                        <div className=" pt-10" id="ss">
+                        <div className=" pt-10" id="4">
                             <div className=" bg-[#282664] p-5 text-white rounded-t-lg ">
                                 <p className=" text-lg font-[poppins]">Question 4</p>
                                 <p className=" text-xl font-[poppins] pt-5">Match the icons to their sites.</p>
@@ -118,7 +118,7 @@ const QuizQuestions = () => {
                             </div>
                         </div>
                         {/* 5 */}
-                        <div className=" pt-10" id="ss">
+                        <div className=" pt-10" id="5">
                             <div className=" bg-[#282664] p-5 text-white rounded-t-lg ">
                                 <p className=" text-lg font-[poppins]">Question 5</p>
                                 <p className=" text-xl font-[poppins] pt-5">Facebook was founded in 2005.</p>

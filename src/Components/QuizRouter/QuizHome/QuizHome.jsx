@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { QCourseCardApi } from "../../../assets/Api/QCourseCardApi"
 import QuizCard from "../QuizCard/QuizCard"
 import QuizDetails from "../QuizDetails/QuizDetails"
+import { ChevronRight } from "lucide-react";
 
 // import { Apple ,Search,User,CalendarDays,TrendingCard} from "lucide-react"
 const QuizHome = () => {
@@ -11,11 +12,22 @@ const QuizHome = () => {
         <div className=" w-[90%] mx-auto py-10">
           <div className=" grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className=" md:col-span-1 col-span-3">
-                <div className=" shadow-lg p-5 rounded-lg">
-                  <h1>Quiz Complite</h1>
-                  <div className=" flex items-center">
-                    <div className=" w-full h-1 rounded-full bg-red-600"></div>
-                    <p>25%</p>
+                <div className=" shadow-lg rounded-lg py-5 ">
+                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 ">
+                    <h1 className=" font-[poppins] pl-2">Trending Articels</h1>
+                    <ChevronRight className=" w-5"/>
+                  </div>
+                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 ">
+                    <h1 className=" font-[poppins] pl-2">Trending Articels</h1>
+                    <ChevronRight className=" w-5"/>
+                  </div>
+                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 ">
+                    <h1 className=" font-[poppins] pl-2">Trending Articels</h1>
+                    <ChevronRight className=" w-5"/>
+                  </div>
+                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 ">
+                    <h1 className=" font-[poppins] pl-2">Trending Articels</h1>
+                    <ChevronRight className=" w-5"/>
                   </div>
                 </div>
             </div>
