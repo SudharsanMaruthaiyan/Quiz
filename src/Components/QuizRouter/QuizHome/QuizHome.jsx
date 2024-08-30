@@ -13,19 +13,19 @@ const QuizHome = () => {
           <div className=" grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className=" md:col-span-1 col-span-3">
                 <div className=" shadow-lg rounded-lg py-5 ">
-                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 ">
+                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 px-3">
                     <h1 className=" font-[poppins] pl-2">Trending Articels</h1>
                     <ChevronRight className=" w-5"/>
                   </div>
-                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 ">
+                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 px-3">
                     <h1 className=" font-[poppins] pl-2">Trending Articels</h1>
                     <ChevronRight className=" w-5"/>
                   </div>
-                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 ">
+                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 px-3">
                     <h1 className=" font-[poppins] pl-2">Trending Articels</h1>
                     <ChevronRight className=" w-5"/>
                   </div>
-                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 ">
+                  <div className=" flex justify-between w-full hover:bg-[#1176F0] hover:text-white py-2 px-3">
                     <h1 className=" font-[poppins] pl-2">Trending Articels</h1>
                     <ChevronRight className=" w-5"/>
                   </div>
